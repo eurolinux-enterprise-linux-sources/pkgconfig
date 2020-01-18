@@ -1,7 +1,7 @@
 Summary: A tool for determining compilation options
 Name: pkgconfig
 Version: 0.27.1
-Release: 2%{?dist}
+Release: 4%{?dist}
 Epoch: 1
 License: GPLv2+
 URL: http://pkgconfig.freedesktop.org
@@ -48,6 +48,12 @@ rm -rf $RPM_BUILD_ROOT%{_datadir}/doc/pkg-config
 %{_datadir}/aclocal/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1:0.27.1-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.27.1-3
+- Mass rebuild 2013-12-27
+
 * Tue Jun 25 2013 Matthias Clasen <mclasen@redhat.com> - 0.27.1-2
 - Fix a few errors in the man page
 
